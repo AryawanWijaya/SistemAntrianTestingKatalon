@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/Page_Sistem Antrian Disabilitas/la
 
 WebUI.click(findTestObject('Object Repository/Page_Sistem Antrian Disabilitas/button_Simpan'))
 
-println('coba cek nama: ' + Nama)
+//println('coba cek nama: ' + Nama)
 
 String expected = Nama
 
@@ -61,12 +61,12 @@ WebElement table = driver.findElement(By.xpath('//table/tbody'))
 
 List<WebElement> rows = table.findElements(By.tagName('tr'))
 
-println('No. of rows: ' + rows.size())
+//println('No. of rows: ' + rows.size())
 
 table: for (int i = 0; i < rows.size(); i++) {
     List<WebElement> cols = rows.get(i).findElements(By.tagName('td'))
 
-    println('No. of cols: ' + cols.size())
+//    println('No. of cols: ' + cols.size())
 
     for (int a = 0; a < cols.size(); a++) {
         println(cols.get(a).getText())
