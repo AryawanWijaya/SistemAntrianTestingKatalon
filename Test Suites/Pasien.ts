@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Pasien</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e5b27e6e-de97-48ac-899e-a44ae9abedf5</testSuiteGuid>
+   <testCaseLink>
+      <guid>8a6d5b4f-c7d1-433f-b426-cc51db68d268</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Insert pasien</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8633108a-0ce4-4de6-a695-afa908a02f12</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Pasien</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8633108a-0ce4-4de6-a695-afa908a02f12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nama</value>
+         <variableId>1b3cd4b1-129a-4f20-9d77-d8bcb4c0dafe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8633108a-0ce4-4de6-a695-afa908a02f12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NoRekamMedis</value>
+         <variableId>37ca8165-f246-4127-8321-2576702cf57c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8633108a-0ce4-4de6-a695-afa908a02f12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NoTlp</value>
+         <variableId>1f94dd3b-0e98-42e3-a422-22cfff80f7ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8633108a-0ce4-4de6-a695-afa908a02f12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TglLahir</value>
+         <variableId>3a50fe0a-9ef8-475d-91db-9d9887068654</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8633108a-0ce4-4de6-a695-afa908a02f12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Alamat</value>
+         <variableId>348c401e-e5d3-46ef-90ad-2356e87c37a9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
